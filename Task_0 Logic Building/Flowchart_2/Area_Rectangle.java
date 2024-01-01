@@ -9,10 +9,10 @@ public class Area_Rectangle {
         
         int l, b, A, P;
         
-        System.out.print("Enter length (l): ");
+        System.out.print("Enter length [l]: ");
         l = scanner.nextInt();
         
-        System.out.print("Enter breadth (b): ");
+        System.out.print("Enter breadth [b]: ");
         b = scanner.nextInt();
         
         A = l * b;
