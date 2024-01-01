@@ -10,7 +10,8 @@ public class Area_Circle {
       public static void main(String[] args) 
     {
         int r;
-        double pi = 3.14, area;
+        double pi = 3.14;
+        double area;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter radius of circle: ");
         r = sc.nextInt();
