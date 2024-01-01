@@ -6,7 +6,7 @@ public class Age_Validation {
     public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
     
-    System.out.print("Read Age: ");
+    System.out.print("Enter your Age: ");
     int age = scanner.nextInt();
     
     if (age >= 21) {
