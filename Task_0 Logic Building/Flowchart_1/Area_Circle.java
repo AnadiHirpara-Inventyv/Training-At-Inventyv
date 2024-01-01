@@ -16,7 +16,7 @@ public class Area_Circle {
         System.out.print("Enter radius of circle: ");
         r = sc.nextInt();
         area = pi * r * r;
-        System.out.println("Area of circle: "+area);
+        System.out.println("Area of circle: "+area + "m²");
         sc.close();
     } 
     
