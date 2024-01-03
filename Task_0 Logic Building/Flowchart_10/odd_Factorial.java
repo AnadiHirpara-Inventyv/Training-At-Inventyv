@@ -14,7 +14,7 @@ public class odd_Factorial {
         int fact = 1;
         
         while (i <= n * n / 2) {
-            System.out.println(fact);
+            System.out.print(fact+" ");
             fact = fact * i * (i - 1);
             i = i + 2;
         }
