@@ -7,23 +7,31 @@ public class Max_of_3 {
         
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter x: ");
-        int x = scanner.nextInt();
-        System.out.print("Enter y: ");
-        int y = scanner.nextInt();
-        System.out.print("Enter z: ");
-        int z = scanner.nextInt();
+        // Input from the user
+        System.out.println("Enter the first number: ");
+        int num1 = scanner.nextInt();
 
-        if (x >= y) {
-            if (y >= z) {
-                if (x >= z) {
-                    System.out.println("Z");
-                    System.out.println("X");
-                }
-            }
+        System.out.println("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        System.out.println("Enter the third number: ");
+        int num3 = scanner.nextInt();
+
+        // Finding the maximum
+        int max = num1;
+
+        if (num2 > max) {
+            max = num2;
         }
 
-        System.out.println(y);
+        if (num3 > max) {
+            max = num3;
+        }
+
+        // Displaying the result
+        System.out.println("The maximum of the three numbers is: " + max);
+
+        // Closing the scanner
+        scanner.close();
     }
-    
 }
