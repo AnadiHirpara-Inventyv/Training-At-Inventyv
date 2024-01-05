@@ -20,7 +20,9 @@ function func2(fe, ...args) {
     let pr = new Promise((resolve, reject) => {
         if (sum > 30) {
             resolve(sum);
-        } else {
+        }
+         else
+          {
             reject("Khota hai bhai");
         }
     });
