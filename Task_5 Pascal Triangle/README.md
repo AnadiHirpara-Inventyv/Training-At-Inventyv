@@ -1,5 +1,5 @@
 
-# Task_5 Aim : Aim: Develop a program that reads a number. Number should be atleast 4 digit long. Generate all possible permutations and combinations of that number and find prime from that. Compare the prime numbers array with Pascal's Triangle and highlight the prime numbers in the Pascal's Triangle. Create an error ratio list and print it. Also create the list of matched elements and missing elements.
+## Task_5 Aim : Aim: Develop a program that reads a number. Number should be atleast 4 digit long. Generate all possible permutations and combinations of that number and find prime from that. Compare the prime numbers array with Pascal's Triangle and highlight the prime numbers in the Pascal's Triangle. Create an error ratio list and print it. Also create the list of matched elements and missing elements.
 
 
 Row
@@ -70,6 +70,10 @@ Row
     outputContainer.innerHTML += `<span class="text-element">1</span><p></p><hr>`;
 
   
+## Output
+![Screenshot (282)](https://github.com/AnadiHirpara-Inventyv/Training-At-Inventyv/assets/153496016/31ef20c1-84ef-4963-8507-2605f04254f3)
+
+
 
 ## Authors
 
