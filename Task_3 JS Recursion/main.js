@@ -5,7 +5,8 @@ function nCr(n, r) {
     }
 
     // Calculate factorial of a number
-    function factorial(num) {
+    function factorial(num)
+    {
         if (num === 0 || num === 1) {
             return 1;
         }
